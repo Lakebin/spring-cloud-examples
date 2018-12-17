@@ -10,9 +10,9 @@
 		<relativePath>../../spring-cloud-eureka/pom.xml</relativePath> <!-- lookup parent from repository -->
 	</parent>
 
-	<artifactId>spring-cloud-eureka-one</artifactId>
-	<name>spring-cloud-eureka-one</name>
-	<description>Demo project for eureka one</description>
+	<artifactId>spring-cloud-eureka-three</artifactId>
+	<name>spring-cloud-eureka-three</name>
+	<description>Demo project for eureka three</description>
 
 	<dependencies>
 
