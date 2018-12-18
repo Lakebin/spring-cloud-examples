@@ -1,4 +1,4 @@
-package com.lake.producer.controller;
+package com.lake.producer.copy.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,9 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProducerController {
     private static final Logger LOGGER = Logger.getLogger(ProducerController.class);
 
-    @RequestMapping("/hello/{msg}")
-    public String Hello(@RequestParam String msg) {
+    @RequestMapping("/hello")
+    public String hello(@RequestParam String msg) {
         LOGGER.debug("producer...");
-        return "hello, I com from ProducerController, you say “ " + msg + " ”";
+        return "hello, I com from ProducerController, Hello “ " + msg + " ”";
     }
 }
